@@ -15,4 +15,4 @@ function getNumberDays(start, end) {
     return differenceDays;
 }
 
-console.log(getNumberDays("2/1/2021", "2/11/2021"));
+console.log((`The difference between the given dates is: `) + getNumberDays("2/1/2022", "2/11/2022") + (` days.`));
